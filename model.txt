@@ -1,0 +1,14 @@
+Receipts
+	sale_id, gross, tax, total, item - item price (quantity, item_id, item_price), server name, time
+
+Item
+    item_id, item_price, recipe
+
+Recipe
+    distinct_boh_item_id
+
+Boh_item
+    item_id, item_price_per_unit
+    
+Server
+    server_id, server_name, age, date_of_hire
